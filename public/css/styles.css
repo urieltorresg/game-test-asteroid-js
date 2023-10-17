@@ -1,0 +1,28 @@
+body {
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+.grass {
+  background-color: green;
+  position: relative;
+  left: -100px;
+  width: 10000%;
+  height: 900px;
+}
+
+.sun {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  border-radius: 90px;
+}
+
+#myCanvas {
+  position: relative;
+  bottom: 0px;
+  /* background-color: red; */
+  display: block;
+  margin: 0 auto;
+}

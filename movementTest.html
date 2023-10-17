@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movement</title>
+    <link rel="stylesheet" href="./public/css/movementTest.css" />
+  </head>
+  <body>
+    <p>ITGAM</p>
+    <p>Ingenieria en Tecnologías de la Información y Comunicaciones</p>
+    <h2>CODEFEST</h2>
+    <h3>Activity: Animation CANVAS</h3>
+    <p><b>Student's name:</b> Torres García Uriel Abisai</p>
+    <canvas id="myCanvas" width="600" height="300"></canvas>
+    <label for="tamanio">Tamaño: </label>
+    <input
+      type="number"
+      min="3"
+      max="100"
+      id="tamanio"
+      onblur="changeSizeBall()"
+    />
+    <label for="color">Color de la pelota:</label>
+    <input type="color" id="color" onblur="changeColorBall()" />
+    <label for="inc_x">Inclinacion eje X:</label>
+    <input
+      type="number"
+      id="inc_x"
+      min="3"
+      max="100"
+      onblur="changeInclination()"
+    />
+    <label for="inc_y">Inclinacion eje Y:</label>
+    <input
+      type="number"
+      id="inc_y"
+      min="3"
+      max="100"
+      onblur="changeInclination()"
+    />
+  </body>
+  <script src="./public/js/movementScript.js"></script>
+</html>
