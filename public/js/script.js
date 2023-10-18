@@ -3,23 +3,7 @@ window.onload = function () {
   if (canvas && canvas.getContext) {
     var ctx = canvas.getContext("2d");
     if (ctx) {
-      // Colour definitions
-      // ctx.fillStyle = "yellow"; //relleno
-      // ctx.strokeStyle = "#ff0000"; // Border
-      ctx.lineWidth = 5; // Border width
-
-      //   // Another rectangle
-      //   ctx.fillStyle = "rgba(0, 0, 250, 0.3)";
-      //   ctx.fillRect(200, 20, 100, 100);
-      //   ctx.strokeRect(200, 20, 100, 100);
-
-      //   ctx.beginPath();
-      //   ctx.moveTo(50, 400);
-      //   ctx.lineTo(50, 600);
-      //   ctx.lineTo(800, 600);
-      //   ctx.lineTo(800, 400);
-      //   ctx.lineTo(47, 400);
-      //   ctx.stroke();
+      ctx.lineWidth = 10;
 
       ctx.fillStyle = "rgb(255, 255, 255)";
       ctx.fillRect(200, 450, 600, 160);
@@ -35,6 +19,15 @@ window.onload = function () {
 
       ctx.fillStyle = "rgb(0, 0, 255, 0.3)";
       ctx.fillRect(500, 400, 300, 50);
+
+      ctx.fillStyle = "rgb(128, 64, 0)";
+      ctx.fillRect(700, 500, 50, 100);
+
+      ctx.fillStyle = "rgb(0, 0, 255, 0.3)";
+      ctx.fillRect(200, 350, 200, 90);
+
+      ctx.fillStyle = "rgb(0, 0, 255, 0.3)";
+      ctx.fillRect(200, 470, 300, 90);
     } else {
       alert("Error creating the context");
     }
