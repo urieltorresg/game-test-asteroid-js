@@ -49,7 +49,7 @@ function dibuja_emoji(centroX, centroY) {
   ctx.strokeStyle = "black";
   ctx.lineWidth = 8;
   ctx.beginPath();
-  ctx.arc(centroX, centroY + 20, 100, 1200, Math.PI);
+  ctx.arc(centroX, centroY + 100, 100, Math.PI, 2 * Math.PI);
   ctx.stroke();
 }
 

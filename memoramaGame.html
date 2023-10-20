@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/css/memoramaGame.css" />
+    <title>Memorama</title>
+  </head>
+  <body>
+    <h1>MEMORAMA</h1>
+    <h3 id="jugadorTurno"></h3>
+    <canvas id="miCanvas" width="960px" height="500px">
+      Tu navegador no soporta CANVAS
+    </canvas>
+    <br /><br />
+    <label style="margin-top: 20px; font-weight: bolder"
+      >Seleccione jugador</label
+    >
+    <div id="lista_jugadores"></div>
+    <br />
+    <input
+      type="button"
+      value="Nuevo juego"
+      onclick="nuevojuego()"
+      id="btnStart"
+      style="
+        font-family: 'Inter', sans-serif !important;
+        font-weight: bolder;
+        border: none;
+        border-radius: 15px;
+        font-size: 20px;
+        padding: 15px;
+        cursor: pointer;
+      "
+    />
+
+    <script src="./public/js/memoramaGame.js"></script>
+  </body>
+</html>
