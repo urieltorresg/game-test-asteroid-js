@@ -104,7 +104,7 @@ function borrar_avion(centroX, centroY, ancho) {
 
 function dibujar_avion(posx, posy, ancho) {
   var img = new Image();
-  img.src = "./public/img/plane.png";
+  img.src = "../public/img/plane.png";
   ctx.drawImage(img, posx, posy, ancho, ancho);
 }
 

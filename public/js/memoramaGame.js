@@ -198,8 +198,8 @@ function pintaFallos() {
 function pinta(c) {
   ctx.fillStyle = colorFrente;
   ctx.fillRect(c.x, c.y, cartaAncho, cartaAlto);
-  ctx.font = "bold 40px Comic";
-  ctx.fillStyle = "red";
+  ctx.font = "40px Inter, sans-serif";
+  ctx.fillStyle = "black";
   ctx.fillText(
     String(c.info),
     c.x + cartaAncho * 0.5 - 10,

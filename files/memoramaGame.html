@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/memoramaGame.css" />
+    <title>Memorama</title>
+  </head>
+  <body>
+    <h1>MEMORAMA</h1>
+    <canvas id="miCanvas" width="960" height="500">
+      Tu navegador no soporta CANVAS
+    </canvas>
+    <div class="container">
+      <div class="menu">
+        <label>Seleccione jugador</label>
+        <div id="lista_jugadores"></div>
+        <input
+          type="button"
+          value="Nuevo juego"
+          onclick="nuevojuego()"
+          id="btnStart"
+        />
+      </div>
+      <div class="menu">
+        <h3 id="jugadorTurno"></h3>
+      </div>
+    </div>
+    <script src="../public/js/memoramaGame.js"></script>
+  </body>
+</html>

@@ -24,3 +24,35 @@ h1 {
   background-color: gray;
   color: white;
 }
+
+.container {
+  position: relative;
+  top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 48%;
+}
+
+label {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+input {
+  font-family: "Inter", sans-serif !important;
+  font-weight: bolder;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.carta-volteada {
+  transform: rotateY(180deg);
+  transition: transform 0.5s ease;
+}
